@@ -46,7 +46,7 @@ console.log(profile)
     {profile?.map((item, index) => (
     <Navbar key={index} className="bg-navbar-contact justify-content-between" style={{color:'white'}}>
     <Link  to={`/edit/${item.id}`}>
-    <Image src= {item?.image === "https://waysbeans-porto.herokuapp.com/" ? profilePic :  item.image}
+    <Image src= {item?.image === "hhttps://wetalk-simple.herokuapp.com/" ? profilePic :  item.image}
       width="50px" height="50px" className="rounded-circle ms-2"/>
      </Link>
         <div className='d-flex align-items-center'>
@@ -62,7 +62,7 @@ console.log(profile)
     <div className="vertical-scroll" style={{height:'89%'}}>
     {profiles?.map((item, index) => (
       <div className='ms-0 mt-2 pb-2 d-flex align-items-center borderBottom'style={{ color:'white'}} key={index}>
-        <Image src={item?.image === "https://waysbeans-porto.herokuapp.com/" ? profilePic : item.image}
+        <Image src={item?.image === "https://wetalk-simple.herokuapp.com/ " ? profilePic : item.image}
                width="50px" height="50px" className="rounded-circle ms-2"/>
                <p className='ms-2 me-2 mb-0'>{item.user.name}</p>
       </div>
